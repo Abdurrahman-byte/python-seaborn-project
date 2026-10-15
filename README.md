@@ -1,0 +1,1 @@
+Nothing much just a bunch of seaborn practice sessions, as a part of my machine learning journey in order to strengthen the foundation
