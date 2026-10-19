@@ -13,3 +13,33 @@ to install seaborn in jupyter notebook cell enter:
 and then rerun the imports
 and to check your Seaborn version enter:
 *print(sns.__version__)*       
+
+       Line plot
+A line plot connects data points to help reveal how a  value changes across an ordered varaible such as time, study hours , or dates.  
+
+Examples:
+*sns.lineplot()*
+
+when to use it:
+To show a trend or progression.
+
+Note:
+One important distinction; a scatterplot shows individual relationships without connecting the points by default; lineplot in other words connects them to emphasize the pattern.
+
+          Bar Plot
+A barplot compares a numerical measurement across categories. By default, *sns.barplot()* estimates the mean for each category.
+
+when to use it:
+When you want to compare average exam score between groups, average revenues by product, or average rating by region.
+
+Note:
+Remember; a barplot shows an aggregate statistics by default, not every student's individual score.
+
+            Count Plot
+Use to obverse which category belongs to which
+
+when to use it:
+Counting students by gender, orders by status, or products by category.
+
+Note:
+Unlike *barplot()*, *countplot()* counts how often each category appears. it doesnt need a numerical y column
