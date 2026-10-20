@@ -15,7 +15,7 @@ and to check your Seaborn version enter:
 *print(sns.__version__)*       
 
        Line plot
-A line plot connects data points to help reveal how a  value changes across an ordered varaible such as time, study hours , or dates.  
+A line plot connects data points to help reveal how a value changes across an ordered variable such as time, study hours , or dates.  
 
 Examples:
 *sns.lineplot()*
@@ -43,3 +43,6 @@ Counting students by gender, orders by status, or products by category.
 
 Note:
 Unlike *barplot()*, *countplot()* counts how often each category appears. it doesnt need a numerical y column
+
+           Hist Plot
+histplot is used to understand distributions and how values are spread.           
