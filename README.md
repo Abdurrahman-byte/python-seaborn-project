@@ -45,4 +45,26 @@ Note:
 Unlike *barplot()*, *countplot()* counts how often each category appears. it doesnt need a numerical y column
 
            Hist Plot
-histplot is used to understand distributions and how values are spread.           
+A histogram groups numerical values into intervals called bins and shows how many observation falls into each interval.
+
+When to use it: To investigate whether values cluster in certain ranges, whether disribution is spread out, or whether it has a long tail.
+
+           How to read it:
+-The x-axis shows exams-score intervals.
+-The y-axis shows the number of students in each intervals
+-*bins=5* ask seaborn to divide the score range into five intervals.   
+
+           BoxPlot
+A boxplot summarizes the distribution of numerical data using quartiles, the median, whiskers. It can also pontential outliers.
+
+When to use it: Comparing the spread of exam scores between groups, checking whether one group has more variability or investigating pontential outliers.
+
+            How to read it:
+-Line inside the box: median score
+-Box: middle 50% of the scores, between the first and third quartiles.
+-Whiskers: extend to value within the plot's whiskers rule.
+-Points beyond the Whiskers: pontential outliers under 1.5 x IQR rule.
+
+           Heat Map
+A heatmap represents numerical values using colors.One common use is visualizing correlations between numerical columns.
+           
