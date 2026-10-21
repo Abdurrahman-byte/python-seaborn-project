@@ -71,4 +71,21 @@ A heatmap represents numerical values using colors.One common use is visualizing
             How to interpret correlation:
 - Near +1: Strong positive linear relationship
 - Near 0: Little or no linear relationship
-- Near -1: Strong negative linear relationship            
+- Near -1: Strong negative linear relationship
+
+          Pair Plot
+Relationship across multiple variable.
+
+Scenario: Imagine you have 3 numerical columns:Study hours, exam scores and hours slept. instead of creating separate chart for every possible pair, *pairplot()* genarates a matrix of plot to help you explore them together.
+
+When to use it: During exploratory data analysis (EDA) when yu want an overview of relationships in a dataset.
+
+Note: 
+- Off-diagonal show relationships between pairs of numerical variables.
+- Diagonal plots show each variable's distribution.
+- *hue="Gender"* helps you compare the two gender categories using color.
+
+             Join Plot
+While *pairplot()* examines multiple pairs, *jointplot()* focuses one pair of numerical variables and also displays their individual disributions.
+
+When to use it: When You Want a closer look at a particular relationship between two numerical variables.
