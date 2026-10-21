@@ -89,3 +89,15 @@ Note:
 While *pairplot()* examines multiple pairs, *jointplot()* focuses one pair of numerical variables and also displays their individual disributions.
 
 When to use it: When You Want a closer look at a particular relationship between two numerical variables.
+
+              Relplot
+Relplot is higher-level of *scatterplot()* and *lineplot()*
+that can organize pots into separate panels.
+
+what some of it parameters mean:
+- *hue="Gender"* Distinguishes categories by color
+- *col="Gender"* creates a separate panel for each gender.
+- *kind="scatter"* chooses the chart type. Eg *kind="line"* for lineplots.
+
+Note:
+*scatterplot()* creates a single axex-level plot, while *relplot()* is designed to manage plots across multiple panels.
