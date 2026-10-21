@@ -67,4 +67,8 @@ When to use it: Comparing the spread of exam scores between groups, checking whe
 
            Heat Map
 A heatmap represents numerical values using colors.One common use is visualizing correlations between numerical columns.
-           
+
+            How to interpret correlation:
+- Near +1: Strong positive linear relationship
+- Near 0: Little or no linear relationship
+- Near -1: Strong negative linear relationship            
