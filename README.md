@@ -101,3 +101,24 @@ what some of it parameters mean:
 
 Note:
 *scatterplot()* creates a single axex-level plot, while *relplot()* is designed to manage plots across multiple panels.
+
+            Regression Plots
+Regresion plot add a fitted line to *scatterplot()*, helping you visualize a linear trend between two numerical variable.
+
+              Distribution Shape
+Violinplot shows the distribution's shape and density, making it useful for comparing how numerical values are spread across categories.
+
+             Individual Observation
+ Swarmplot Display individual data points within categories while positioning them to reduce overlap.  
+
+             Facet Grid
+Facet grid creates a grid of panels based on categories,then mao a plotting function onto each panel.
+
+When to use it:Compare the same relationship across grups.
+
+           Error Bars and Uncertainty
+A Barplot often estimates a mean and dislays uncertainty around that estimate.You can contol the errorbar display with errorbar.
+
+When to use it: Comapring groups summmaries while being careful about uncertainty
+
+Note: *errorbar=None* remooves the error bars.By default, seaborn generally display a 95% confidence interval for the estimated mean
