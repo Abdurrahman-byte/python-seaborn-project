@@ -122,3 +122,22 @@ A Barplot often estimates a mean and dislays uncertainty around that estimate.Yo
 When to use it: Comapring groups summmaries while being careful about uncertainty
 
 Note: *errorbar=None* remooves the error bars.By default, seaborn generally display a 95% confidence interval for the estimated mean
+
+           Facet Grid
+Facet grid creates a grid of panels based on the categories, then map a plotting function onto each panel.
+
+When to use it: If  you want to compare the same relationship across groups.
+
+           Error Bars and Uncertainty
+A barplot often estimates a mean and displays uncertainty around that estimate. You control the erro-bar display wiyh errorbar.
+
+When to use it: When comparing group summaries while being careful about uncertainty.
+
+Note: *error=None* removes the error bars. By default, seaborn generally display a 95% confidence interval for the estimated mean.
+
+           Consistent chart styling (set_theme())
+Set a consistent visual theme for your seaborn charts
+
+When to use it: Preparing a consistent set of plots for a report, notebook, or dashbord
+
+common styling: include *whitegrid()*, *darkgrid()* *white* *dark* and *ticks*
